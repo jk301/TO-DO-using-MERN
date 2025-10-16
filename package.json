@@ -7,6 +7,9 @@
     "build": "npm install --prefix back && npm install --prefix front && npm run build --prefix front",
     "start": "npm run start --prefix back"
   },
+  "devDependencies": {
+    "vite": "^7.1.10"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jk301/TO-DO-using-MERN.git"
